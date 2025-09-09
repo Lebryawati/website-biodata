@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Biodata - Deby Lebeyawati</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #1e3a8a, #06b6d4, #14b8a6);
+        color: #333;
+      }
+      .container {
+        max-width: 900px;
+        margin: 50px auto;
+        background: #fff;
+        border-radius: 16px;
+        padding: 40px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+        animation: fadeIn 1s ease-in-out;
+        text-align: center;
+      }
+      @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(20px);}
+        to {opacity: 1; transform: translateY(0);}
+      }
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #1e3a8a;
+        margin-bottom: 20px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      }
+      h1 {
+        margin-top: 0;
+        font-size: 2.5em;
+        color: #1e3a8a;
+      }
+      h2 {
+        font-weight: normal;
+        color: #475569;
+        margin-top: -10px;
+        margin-bottom: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        text-align: left;
+      }
+      td {
+        padding: 14px 10px;
+        border-bottom: 1px solid #e2e8f0;
+      }
+      td.label {
+        font-weight: bold;
+        width: 35%;
+        color: #0f172a;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #475569;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Foto Profil -->
+      <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-pic" />
+
+      <h1>Biodata Diri</h1>
+      <h2>Deby Lebeyawati</h2>
+      <table>
+        <tr>
+          <td class="label">Nama</td>
+          <td>Deby Lebeyawati</td>
+        </tr>
+        <tr>
+          <td class="label">NIM</td>
+          <td>H021231046</td>
+        </tr>
+        <tr>
+          <td class="label">Jurusan</td>
+          <td>Fisika S1</td>
+        </tr>
+        <tr>
+          <td class="label">No. HP</td>
+          <td>081261504338</td>
+        </tr>
+        <tr>
+          <td class="label">Tempat/Tanggal Lahir</td>
+          <td>Butang, 16 April 2005</td>
+        </tr>
+        <tr>
+          <td class="label">Jenis Kelamin</td>
+          <td>Perempuan</td>
+        </tr>
+        <tr>
+          <td class="label">Asal Daerah</td>
+          <td>Tana Toraja</td>
+        </tr>
+        <tr>
+          <td class="label">Alamat Domisili</td>
+          <td>Makassar</td>
+        </tr>
+        <tr>
+          <td class="label">Status</td>
+          <td>Mahasiswa</td>
+        </tr>
+      </table>
+      <div class="footer">© 2025 • Biodata Pribadi Deby Lebeyawati</div>
+    </div>
+  </body>
+</html>
